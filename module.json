@@ -2,20 +2,20 @@
    "name": "custom-spells",   
    "title": "Custom Spells",   
    "description": "The homebrew spells we've created",   
-   "author": "Forbidden Arcana",
+   "author": "ForbiddenArcana",
    "version": "1.0.0",
    "system": ["dnd5e"],
    "minimumCoreVersion": "0.5.0",
    "compatibleCoreVersion":"0.8.9",
-   "packs": [
-    {
+   "socket": true,
+   "url": "https://github.com/ForbiddenArcana/FoundryVTT-Custom-Spells",
+   "packs": [{
       "name": "spells",
       "label": "Custom Spells",
       "path": "packs/custom-spells.db",
       "entity": "Item",
       "module": "custom-spells"
-    }
-    ], 
+    }], 
     "manifest": "https://raw.githubusercontent.com/ForbiddenArcana/FoundryVTT-Custom-Spells/main/module.json",
     "download": "https://github.com/ForbiddenArcana/FoundryVTT-Custom-Spells/releases/download/v1.0.0/module.zip"
  }
